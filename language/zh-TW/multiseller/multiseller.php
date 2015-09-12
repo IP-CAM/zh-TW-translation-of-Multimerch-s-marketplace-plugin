@@ -43,7 +43,7 @@ $_['ms_button_select_predefined_avatar'] = 'Select Pre-defined avatar';
 
 $_['ms_button_select_image'] = '選擇圖片';
 $_['ms_button_select_images'] = '選擇圖片';
-$_['ms_button_select_files'] = 'Select files';
+$_['ms_button_select_files'] = '選擇檔案';
 
 $_['ms_transaction_order_created'] = 'Order created';
 $_['ms_transaction_order'] = 'Sale: Order Id #%s';
