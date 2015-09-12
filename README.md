@@ -1,4 +1,4 @@
-zh-TW translation of [Multimerch](http://multimerch.com/)'s marketplace pugin on OpenCart
+zh-TW translation of [Multimerch](http://multimerch.com/)'s marketplace plugin on OpenCart
 ===
 
 Disclaimer
