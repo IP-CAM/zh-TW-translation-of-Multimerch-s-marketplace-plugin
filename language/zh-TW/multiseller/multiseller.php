@@ -688,14 +688,14 @@ $_['ms_catalog_seller_products_breadcrumbs'] = '%s\'s products';
 $_['ms_catalog_seller_products_empty'] = 'This seller doesn\'t have any products yet!';
 
 // Catalog - Seller contact dialog
-$_['ms_sellercontact_title'] = 'Send a message to seller';
-$_['ms_sellercontact_signin'] = 'Please <a href="%s">sign in</a> to contact %s';
-$_['ms_sellercontact_sendto'] = 'Send a message to %s';
-$_['ms_sellercontact_text'] = 'Message: ';
-$_['ms_sellercontact_captcha'] = 'Captcha';
-$_['ms_sellercontact_sendmessage'] = 'Send a message to %s';
-$_['ms_sellercontact_close'] = 'Close';
-$_['ms_sellercontact_send'] = 'Send';
-$_['ms_sellercontact_success'] = 'Your message has been successfully sent';
+$_['ms_sellercontact_title'] = '發訊息給賣家';
+$_['ms_sellercontact_signin'] = '請 <a href="%s">登入</a> 去聯絡 %s';
+$_['ms_sellercontact_sendto'] = '發訊息給 %s';
+$_['ms_sellercontact_text'] = '訊息: ';
+$_['ms_sellercontact_captcha'] = '驗證碼';
+$_['ms_sellercontact_sendmessage'] = '發訊息給 %s';
+$_['ms_sellercontact_close'] = '關閉';
+$_['ms_sellercontact_send'] = '送出';
+$_['ms_sellercontact_success'] = '您的訊息已成功送出';
 
 ?>
