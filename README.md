@@ -4,7 +4,6 @@ Translator
 
 * [spyf](https://github.com/spyf)
 * [ching.lin](https://github.com/wanching)
-* [Allen Chou](https://github.com/s3131212)
 
 Disclaimer
 ---
