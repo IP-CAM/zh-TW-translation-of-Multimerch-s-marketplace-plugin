@@ -45,19 +45,19 @@ $_['ms_button_select_image'] = '選擇圖片';
 $_['ms_button_select_images'] = '選擇圖片';
 $_['ms_button_select_files'] = '選擇檔案';
 
-$_['ms_transaction_order_created'] = 'Order created';
+$_['ms_transaction_order_created'] = '建立訂單';
 $_['ms_transaction_order'] = 'Sale: Order Id #%s';
 $_['ms_transaction_sale'] = 'Sale: %s (-%s commission)';
 $_['ms_transaction_refund'] = 'Refund: %s';
 $_['ms_transaction_listing'] = 'Product listing: %s (%s)';
 $_['ms_transaction_signup']      = 'Signup fee at %s';
-$_['ms_request_submitted'] = 'Your request is submitted';
+$_['ms_request_submitted'] = '你的要求已經送出';
 
 $_['ms_totals_line'] = 'Curnently %s sellers and %s products for sale!';
 
-$_['ms_text_welcome'] = '<a href="%s">Login</a> | <a href="%s">Create an account</a> | <a href="%s">Create a seller account</a>.';
-$_['ms_button_register_seller'] = 'Register as a seller';
-$_['ms_register_seller_account'] = 'Register a seller account';
+$_['ms_text_welcome'] = '<a href="%s">登入</a> | <a href="%s">建立一個帳戶</a> | <a href="%s">建立一個賣家帳戶</a>.';
+$_['ms_button_register_seller'] = '註冊成為賣家';
+$_['ms_register_seller_account'] = '註冊一個賣家帳戶';
 
 // Mails
 
@@ -67,11 +67,11 @@ $_['ms_mail_greeting_no_name'] = "Hello,\n\n";
 $_['ms_mail_ending'] = "\n\nRegards,\n%s";
 $_['ms_mail_message'] = "\n\nMessage:\n%s";
 
-$_['ms_mail_subject_seller_account_created'] = 'Seller account created';
+$_['ms_mail_subject_seller_account_created'] = '建立賣家帳戶';
 $_['ms_mail_seller_account_created'] = <<<EOT
-Your seller account at %s has been created!
+您在 %s 的賣家帳戶 已經建立！
 
-You can now start adding your products.
+現在，您可以開始販賣您的商品。
 EOT;
 
 $_['ms_mail_subject_seller_account_awaiting_moderation'] = 'Seller account awaiting moderation';
