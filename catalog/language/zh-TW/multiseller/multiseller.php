@@ -111,32 +111,32 @@ EOT;
 
 $_['ms_mail_subject_seller_contact'] = '來自顧客的新訊息';
 $_['ms_mail_seller_contact'] = <<<EOT
-You have received a new customer message!
+您收到一則來自顧客的新訊息！
 
-Name: %s
+客戶名稱： %s
 
-Email: %s
+Email： %s
 
-Product: %s
+商品： %s
 
-Message:
+訊息：
 %s
 EOT;
 
 $_['ms_mail_seller_contact_no_mail'] = <<<EOT
-You have received a new customer message!
+您收到一則來自顧客的新訊息！
 
-Name: %s
+客戶名稱： %s
 
-Product: %s
+商品： %s
 
-Message:
+訊息：
 %s
 EOT;
 
 $_['ms_mail_product_purchased_info'] = <<<EOT
 \n
-Delivery address:
+＊運送地址：
 
 %s %s
 %s
@@ -149,19 +149,19 @@ EOT;
 
 $_['ms_mail_product_purchased_comment'] = 'Comment: %s';
 
-$_['ms_mail_subject_withdraw_request_submitted'] = 'Payout request submitted';
+$_['ms_mail_subject_withdraw_request_submitted'] = '付款要求已經送出';
 $_['ms_mail_withdraw_request_submitted'] = <<<EOT
-We have received your payout request. You will receive your earnings as soon as it is processed.
+我們已經收到您的付款要求，您將在相關程序處理完成後收到帳款。
 EOT;
 
-$_['ms_mail_subject_withdraw_request_completed'] = 'Payout completed';
+$_['ms_mail_subject_withdraw_request_completed'] = '付款完成';
 $_['ms_mail_withdraw_request_completed'] = <<<EOT
-Your payout request has been processed. You should now receive your earnings.
+您的付款要求已經處理完成，請確認您是否收到帳款。
 EOT;
 
-$_['ms_mail_subject_withdraw_request_declined'] = 'Payout request declined';
+$_['ms_mail_subject_withdraw_request_declined'] = '付款要求已被拒絕';
 $_['ms_mail_withdraw_request_declined'] = <<<EOT
-Your payout request has been declined. Your funds have been returned to your balance at %s.
+您的付款要求已被拒絕， Your funds have been returned to your balance at %s.
 EOT;
 
 $_['ms_mail_subject_transaction_performed'] = 'New transaction';
@@ -177,7 +177,7 @@ EOT;
 // *********
 // * Admin *
 // *********
-$_['ms_mail_admin_subject_seller_account_created'] = 'New seller account created';
+$_['ms_mail_admin_subject_seller_account_created'] = '新的賣家帳戶已經建立';
 $_['ms_mail_admin_seller_account_created'] = <<<EOT
 New seller account at %s has been created!
 Seller name: %s (%s)
@@ -679,8 +679,8 @@ $_['ms_catalog_seller_profile_website'] = 'Website:';
 $_['ms_catalog_seller_profile_company'] = 'Company:';
 $_['ms_catalog_seller_profile_totalsales'] = 'Total sales:';
 $_['ms_catalog_seller_profile_totalproducts'] = 'Total products:';
-$_['ms_catalog_seller_profile_view_products'] = 'View products';
-$_['ms_catalog_seller_profile_view'] = 'View all %s\'s products';
+$_['ms_catalog_seller_profile_view_products'] = '檢視商品';
+$_['ms_catalog_seller_profile_view'] = '檢視所有 %s 的商品';
 
 // Catalog - Seller's products list
 $_['ms_catalog_seller_products_heading'] = '%s\'s products';
@@ -688,12 +688,12 @@ $_['ms_catalog_seller_products_breadcrumbs'] = '%s\'s products';
 $_['ms_catalog_seller_products_empty'] = 'This seller doesn\'t have any products yet!';
 
 // Catalog - Seller contact dialog
-$_['ms_sellercontact_title'] = '發訊息給賣家';
-$_['ms_sellercontact_signin'] = '請 <a href="%s">登入</a> 去聯絡 %s';
-$_['ms_sellercontact_sendto'] = '發訊息給 %s';
+$_['ms_sellercontact_title'] = '傳送訊息給賣家';
+$_['ms_sellercontact_signin'] = '請 <a href="%s">登入</a> 以聯絡 %s';
+$_['ms_sellercontact_sendto'] = '傳送訊息給 %s';
 $_['ms_sellercontact_text'] = '訊息: ';
 $_['ms_sellercontact_captcha'] = '驗證碼';
-$_['ms_sellercontact_sendmessage'] = '發訊息給 %s';
+$_['ms_sellercontact_sendmessage'] = '傳送訊息給 %s';
 $_['ms_sellercontact_close'] = '關閉';
 $_['ms_sellercontact_send'] = '送出';
 $_['ms_sellercontact_success'] = '您的訊息已成功送出';
