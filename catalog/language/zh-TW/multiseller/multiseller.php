@@ -62,8 +62,8 @@ $_['ms_register_seller_account'] = '註冊一個賣家帳戶';
 // Mails
 
 // Seller
-$_['ms_mail_greeting'] = "Hello %s,\n\n";
-$_['ms_mail_greeting_no_name'] = "Hello,\n\n";
+$_['ms_mail_greeting'] = "您好 %s，\n\n";
+$_['ms_mail_greeting_no_name'] = "您好，\n\n";
 $_['ms_mail_ending'] = "\n\nRegards,\n%s";
 $_['ms_mail_message'] = "\n\nMessage:\n%s";
 
@@ -74,42 +74,42 @@ $_['ms_mail_seller_account_created'] = <<<EOT
 現在，您可以開始販賣您的商品。
 EOT;
 
-$_['ms_mail_subject_seller_account_awaiting_moderation'] = 'Seller account awaiting moderation';
+$_['ms_mail_subject_seller_account_awaiting_moderation'] = '您的帳號正在等待審核中';
 $_['ms_mail_seller_account_awaiting_moderation'] = <<<EOT
-Your seller account at %s has been created and is now awaiting moderation.
+您在 %s 的賣家帳戶已經建立，現在正在等待審核。
 
-You will receive an email as soon as it is approved.
+您的帳戶審核通過後我們將以電子郵件通知您。
 EOT;
 
-$_['ms_mail_subject_product_awaiting_moderation'] = 'Product awaiting moderation';
+$_['ms_mail_subject_product_awaiting_moderation'] = '商品等待審核中';
 $_['ms_mail_product_awaiting_moderation'] = <<<EOT
-Your product %s at %s is awaiting moderation.
+您在 %s 的商品 %s 正在審核中。
 
-You will receive an email as soon as it is processed.
+審核通過後我們將以電子郵件通知您。
 EOT;
 
-$_['ms_mail_subject_product_purchased'] = 'New order';
+$_['ms_mail_subject_product_purchased'] = '新的訂單';
 $_['ms_mail_product_purchased'] = <<<EOT
-Your product(s) have been purchased from %s.
+您的商品已經被 %s 購買。
 
-Customer: %s (%s)
+顧客： %s (%s)
 
-Products:
+商品：
 %s
-Total: %s
+總金額： %s
 EOT;
 
 $_['ms_mail_product_purchased_no_email'] = <<<EOT
-Your product(s) have been purchased from %s.
+您的商品已經被 %s 購買。
 
-Customer: %s
+顧客： %s
 
-Products:
+商品：
 %s
-Total: %s
+總金額： %s
 EOT;
 
-$_['ms_mail_subject_seller_contact'] = 'New customer message';
+$_['ms_mail_subject_seller_contact'] = '來自顧客的新訊息';
 $_['ms_mail_seller_contact'] = <<<EOT
 You have received a new customer message!
 
