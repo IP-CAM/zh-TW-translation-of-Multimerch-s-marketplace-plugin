@@ -533,14 +533,14 @@ $_['ms_mail_subject_seller_vote'] = 'Vote for the seller';
 $_['ms_mail_seller_vote_message'] = 'Vote for the seller';
 
 // Account - Transactions
-$_['ms_account_transactions_heading'] = 'Your Finances';
-$_['ms_account_transactions_breadcrumbs'] = 'Your Finances';
-$_['ms_account_transactions_balance'] = 'Your current balance:';
-$_['ms_account_transactions_earnings'] = 'Your earnings to date:';
-$_['ms_account_transactions_records'] = 'Balance records';
-$_['ms_account_transactions_description'] = 'Description';
-$_['ms_account_transactions_amount'] = 'Amount';
-$_['ms_account_transactions_notransactions'] = 'You don\'t have any transactions yet!';
+$_['ms_account_transactions_heading'] = '您的財務狀況';
+$_['ms_account_transactions_breadcrumbs'] = '您的財務狀況';
+$_['ms_account_transactions_balance'] = '您目前的餘額:';
+$_['ms_account_transactions_earnings'] = '您目前的收入:';
+$_['ms_account_transactions_records'] = '餘額記錄';
+$_['ms_account_transactions_description'] = '描述';
+$_['ms_account_transactions_amount'] = '總額';
+$_['ms_account_transactions_notransactions'] = '您尚未有任何交易紀錄!';
 
 // Payments
 $_['ms_payment_payments'] = '付款';
