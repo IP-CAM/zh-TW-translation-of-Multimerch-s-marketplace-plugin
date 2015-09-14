@@ -543,17 +543,17 @@ $_['ms_account_transactions_amount'] = 'Amount';
 $_['ms_account_transactions_notransactions'] = 'You don\'t have any transactions yet!';
 
 // Payments
-$_['ms_payment_payments'] = 'Payments';
-$_['ms_payment_order'] = 'order #%s';
-$_['ms_payment_type_' . MsPayment::TYPE_SIGNUP] = 'Signup fee';
-$_['ms_payment_type_' . MsPayment::TYPE_LISTING] = 'Listing fee';
-$_['ms_payment_type_' . MsPayment::TYPE_PAYOUT] = 'Manual payout';
-$_['ms_payment_type_' . MsPayment::TYPE_PAYOUT_REQUEST] = 'Payout request';
-$_['ms_payment_type_' . MsPayment::TYPE_RECURRING] = 'Recurring payment';
-$_['ms_payment_type_' . MsPayment::TYPE_SALE] = 'Sale';
+$_['ms_payment_payments'] = '付款';
+$_['ms_payment_order'] = '訂單 #%s';
+$_['ms_payment_type_' . MsPayment::TYPE_SIGNUP] = '註冊費';
+$_['ms_payment_type_' . MsPayment::TYPE_LISTING] = '上市費';
+$_['ms_payment_type_' . MsPayment::TYPE_PAYOUT] = '手動付款Manual payout';
+$_['ms_payment_type_' . MsPayment::TYPE_PAYOUT_REQUEST] = '請求付款';
+$_['ms_payment_type_' . MsPayment::TYPE_RECURRING] = '定期付款';
+$_['ms_payment_type_' . MsPayment::TYPE_SALE] = '銷售';
 
-$_['ms_payment_status_' . MsPayment::STATUS_UNPAID] = 'Unpaid';
-$_['ms_payment_status_' . MsPayment::STATUS_PAID] = 'Paid';
+$_['ms_payment_status_' . MsPayment::STATUS_UNPAID] = '未付款';
+$_['ms_payment_status_' . MsPayment::STATUS_PAID] = '已付款';
 
 // Account - Orders
 $_['ms_account_orders_heading'] = '您的訂單';
