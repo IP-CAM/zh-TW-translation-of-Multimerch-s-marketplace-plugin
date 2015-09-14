@@ -1,42 +1,42 @@
 <?php
 
 // General
-$_['ms_enabled'] = 'Enabled';
-$_['ms_disabled'] = 'Disabled';
-$_['ms_apply'] = 'Apply';
-$_['ms_type'] = 'Type';
-$_['ms_type_checkbox'] = 'Checkbox';
-$_['ms_type_date'] = 'Date';
+$_['ms_enabled'] = '啟用';
+$_['ms_disabled'] = '停用';
+$_['ms_apply'] = '同意';
+$_['ms_type'] = '＊類型';
+$_['ms_type_checkbox'] = '核取方塊';
+$_['ms_type_date'] = '日期';
 $_['ms_type_datetime'] = 'Date &amp; Time';
-$_['ms_type_file'] = 'File';
-$_['ms_type_image'] = 'Image';
+$_['ms_type_file'] = '檔案';
+$_['ms_type_image'] = '圖片';
 $_['ms_type_radio'] = 'Radio';
-$_['ms_type_select'] = 'Select';
-$_['ms_type_text'] = 'Text';
-$_['ms_type_textarea'] = 'Textarea';
-$_['ms_type_time'] = 'Time';
-$_['text_image_manager'] = 'Image Manager';
-$_['text_browse'] = 'Browse';
-$_['text_clear'] = 'Clear';
-$_['ms_store'] = 'Store';
+$_['ms_type_select'] = '選擇';
+$_['ms_type_text'] = '文字';
+$_['ms_type_textarea'] = '＊文字輸入區';
+$_['ms_type_time'] = '時間';
+$_['text_image_manager'] = '圖片管理器';
+$_['text_browse'] = '瀏覽';
+$_['text_clear'] = '清除';
+$_['ms_store'] = '＊儲存';
 $_['ms_id'] = '#';
 
-$_['ms_error_directory'] = "Warning: Could not create directory: %s. Please create it manually and make it server-writable before proceeding. <br />";
-$_['ms_error_directory_notwritable'] = "Warning: Directory already exists and is not writable: %s. Please make sure it's empty and make it server-writable before proceeding. <br />";
-$_['ms_error_directory_exists'] = "Warning: Directory already exists: %s. Please make sure it's empty before proceeding. <br />";
-$_['ms_error_product_publish'] = 'Failed to publish some products: seller account not active.';
-$_['ms_success_installed'] = 'Extension successfully installed';
-$_['ms_success_product_status'] = 'Successfully changed product status.';
+$_['ms_error_directory'] = "警告：無法創建目錄： %s。請手動增加該目錄,並在繼續動作前使該目錄在伺服器上具有寫入權限。 <br />";
+$_['ms_error_directory_notwritable'] = "警告：目錄已經存在但無法被寫入 %。請在繼續前確認該目錄是空的且在伺服器上有寫入權限。 <br />";
+$_['ms_error_directory_exists'] = "警告：目錄已經存在：%s。請在繼續前確認該目錄是空的。 <br />";
+$_['ms_error_product_publish'] = '商品上架失敗：賣家尚未通過審核。';
+$_['ms_success_installed'] = '擴充功能已經成功安裝。';
+$_['ms_success_product_status'] = '成功改變商品狀態';
 
-$_['ms_db_upgrade'] = 'Please <a href="%s">click here</a> to upgrade your MultiMerch Marketplace database to the latest version.';
-$_['ms_db_success'] = 'Your MultiMerch Marketplace database is now up to date!';
-$_['ms_db_latest'] = 'Your MultiMerch Marketplace database is already up to date!';
+$_['ms_db_upgrade'] = '<a href="%s">點選這裡</a> 將你的 MultiMerch Marketplace 資料庫更新到最新的版本。';
+$_['ms_db_success'] = '你的 MultiMerch Marketplace 資料庫現在已經是最新版了！';
+$_['ms_db_latest'] = '你的 MultiMerch Marketplace 資料庫已經是最新版了！';
 
 $_['heading_title'] = '<b>[MultiMerch]</b> Digital Marketplace';
-$_['text_seller_select'] = 'Seller select';
+$_['text_seller_select'] = '選擇賣家';
 $_['text_shipping_dependent'] = 'Shipping dependent';
-$_['text_no_results'] = 'No results';
-$_['error_permission'] = 'Warning: You do not have permission to modify module!';
+$_['text_no_results'] = '沒有任何結果';
+$_['error_permission'] = '警告：你沒有任何修改模組的權限！';
 
 $_['ms_error_withdraw_norequests'] = 'Error: no payouts to process';
 $_['ms_error_withdraw_response'] = 'Error: no response';
@@ -44,28 +44,28 @@ $_['ms_error_withdraw_status'] = 'Error: unsuccessful transaction';
 $_['ms_success'] = 'Success';
 $_['ms_success_transactions'] = 'Transactions successfully completed';
 $_['ms_success_payment_deleted'] = 'Payment deleted';
-$_['text_success']                 = 'Success: You have modified settings!';
+$_['text_success']                 = '成功：你已經更改設定';
 
-$_['ms_none'] = 'None';
-$_['ms_seller'] = 'Seller';
-$_['ms_all_sellers'] = 'All sellers';
-$_['ms_amount'] = 'Amount';
-$_['ms_product'] = 'Product';
-$_['ms_net_amount'] = 'Net amount';
+$_['ms_none'] = '無';
+$_['ms_seller'] = '賣家';
+$_['ms_all_sellers'] = '所有賣家';
+$_['ms_amount'] = '數量';
+$_['ms_product'] = '商品';
+$_['ms_net_amount'] = '淨數';
 $_['ms_days'] = 'days';
 $_['ms_from'] = 'From';
 $_['ms_to'] = 'To';
 $_['ms_paypal'] = 'PayPal';
-$_['ms_date_created'] = 'Date created';
-$_['ms_status'] = 'Status';
-$_['ms_image'] = 'Image';
+$_['ms_date_created'] = '建立日期';
+$_['ms_status'] = '狀態';
+$_['ms_image'] = '圖片';
 $_['ms_date_modified'] = 'Date modified';
-$_['ms_date_paid'] = 'Date paid';
-$_['ms_date'] = 'Date';
-$_['ms_description'] = 'Description';
+$_['ms_date_paid'] = '付款日期';
+$_['ms_date'] = '日期';
+$_['ms_description'] = '描述';
 
-$_['ms_commission'] = 'Commission';
-$_['ms_commissions_fees'] = 'Commissions & fees';
+$_['ms_commission'] = '佣金';
+$_['ms_commissions_fees'] = '佣金 & 費用';
 $_['ms_commission_' . MsCommission::RATE_SALE] = 'Sale fee';
 $_['ms_commission_' . MsCommission::RATE_LISTING] = 'Listing fee / method';
 $_['ms_commission_' . MsCommission::RATE_SIGNUP] = 'Signup fee / method';
@@ -77,14 +77,14 @@ $_['ms_commission_actual'] = 'Actual fee rates';
 
 $_['ms_sort_order'] = 'Sort order';
 $_['ms_name'] = 'Name';
-$_['ms_config_width'] = 'Width';
-$_['ms_config_height'] = 'Height';
-$_['ms_description'] = 'Description';
+$_['ms_config_width'] = '寬度';
+$_['ms_config_height'] = '高度';
+$_['ms_description'] = '描述';
 
-$_['ms_enable'] = 'Enable';
-$_['ms_disable'] = 'Disable';
-$_['ms_edit'] = 'Edit';
-$_['ms_delete'] = 'Delete';
+$_['ms_enable'] = '啟用';
+$_['ms_disable'] = '停用';
+$_['ms_edit'] = '編輯';
+$_['ms_delete'] = '刪除';
 
 $_['ms_button_pay_masspay'] = 'Pay via MassPay';
 $_['ms_button_pay_masspay_all'] = 'All Pay via MassPay';
