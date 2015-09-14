@@ -490,47 +490,47 @@ $_['ms_account_conversations_title'] = 'Title';
 $_['ms_conversation_title_product'] = 'Inquiry about product: %s';
 $_['ms_conversation_title'] = 'Inquiry from %s';
 
-$_['ms_account_conversations_read'] = 'Read';
-$_['ms_account_conversations_unread'] = 'Unread';
+$_['ms_account_conversations_read'] = '已讀';
+$_['ms_account_conversations_unread'] = '未讀';
 
-$_['ms_account_messages_heading'] = 'Messages';
-$_['ms_account_messages_breadcrumbs'] = 'Messages';
+$_['ms_account_messages_heading'] = '訊息';
+$_['ms_account_messages_breadcrumbs'] = '訊息';
 
-$_['ms_message_text'] = 'Your message';
-$_['ms_post_message'] = 'Send message';
+$_['ms_message_text'] = '您的訊息';
+$_['ms_post_message'] = '送出訊息';
 
-$_['ms_customer_does_not_exist'] = 'Customer account deleted';
-$_['ms_error_empty_message'] = 'Message cannot be left empty';
+$_['ms_customer_does_not_exist'] = '客戶的帳戶被刪除';
+$_['ms_error_empty_message'] = '訊息不能空白';
 
-$_['ms_mail_subject_private_message'] = 'New private message received';
+$_['ms_mail_subject_private_message'] = '收到新訊息';
 $_['ms_mail_private_message'] = <<<EOT
-You have received a new private message from %s!
+您收到一封來自 %s 的新訊息!
 
 %s
 
 %s
 
-You can reply in the messaging area in your account.
+您可以在您帳號的訊息區進行回覆。
 EOT;
 
-$_['ms_mail_subject_order_updated'] = 'Your order #%s has been updated by %s';
+$_['ms_mail_subject_order_updated'] = '您在 #%s 的訂單已由 %s 更新';
 $_['ms_mail_order_updated'] = <<<EOT
-Your order at %s has been updated by %s:
+您在 %s 的訂單已由 %s 更新:
 
-Order#: %s
+訂單#: %s
 
-Products:
+商品:
 %s
 
-Status: %s
+狀態: %s
 
-Comment:
+評論:
 %s
 
 EOT;
 
-$_['ms_mail_subject_seller_vote'] = 'Vote for the seller';
-$_['ms_mail_seller_vote_message'] = 'Vote for the seller';
+$_['ms_mail_subject_seller_vote'] = '投票給賣家';
+$_['ms_mail_seller_vote_message'] = '投票給賣家';
 
 // Account - Transactions
 $_['ms_account_transactions_heading'] = '您的財務狀況';
