@@ -596,23 +596,23 @@ $_['ms_account_dashboard_nav_balance'] = 'View your financial records';
 $_['ms_account_dashboard_nav_payout'] = 'Request your payout';
 
 // Account - Request withdrawal
-$_['ms_account_withdraw_heading'] = 'Request Payout';
-$_['ms_account_withdraw_breadcrumbs'] = 'Request Payout';
-$_['ms_account_withdraw_balance'] = 'Your current balance:';
-$_['ms_account_withdraw_balance_available'] = 'Available for withdrawal:';
-$_['ms_account_withdraw_minimum'] = 'Minimum payout amount:';
-$_['ms_account_balance_reserved_formatted'] = '-%s pending withdrawal';
-$_['ms_account_balance_waiting_formatted'] = '-%s waiting period';
-$_['ms_account_withdraw_description'] = 'Payout request via %s (%s) on %s';
-$_['ms_account_withdraw_amount'] = 'Amount:';
-$_['ms_account_withdraw_amount_note'] = 'Please specify the payout amount';
-$_['ms_account_withdraw_method'] = 'Payment method:';
-$_['ms_account_withdraw_method_note'] = 'Please select the payout method';
+$_['ms_account_withdraw_heading'] = '＊請求付款';
+$_['ms_account_withdraw_breadcrumbs'] = '請求付款';
+$_['ms_account_withdraw_balance'] = '您目前的餘額:';
+$_['ms_account_withdraw_balance_available'] = '＊Available for withdrawal:';
+$_['ms_account_withdraw_minimum'] = '最低支付金額:';
+$_['ms_account_balance_reserved_formatted'] = '＊-%s pending withdrawal';
+$_['ms_account_balance_waiting_formatted'] = '＊-%s 等待時間';
+$_['ms_account_withdraw_description'] = '＊Payout request via %s (%s) on %s';
+$_['ms_account_withdraw_amount'] = '付款金額:';
+$_['ms_account_withdraw_amount_note'] = '請指定付款金額';
+$_['ms_account_withdraw_method'] = '支付方式:';
+$_['ms_account_withdraw_method_note'] = '請選擇支付方式';
 $_['ms_account_withdraw_method_paypal'] = 'PayPal';
-$_['ms_account_withdraw_all'] = 'All earnings currently available';
-$_['ms_account_withdraw_minimum_not_reached'] = 'Your total balance is less than the minimum payout amount!';
-$_['ms_account_withdraw_no_funds'] = 'No funds to withdraw.';
-$_['ms_account_withdraw_no_paypal'] = 'Please <a href="index.php?route=seller/account-profile">specify your PayPal address</a> first!';
+$_['ms_account_withdraw_all'] = '目前可用的總收益';
+$_['ms_account_withdraw_minimum_not_reached'] = '你的總餘額小於最小支付量!';
+$_['ms_account_withdraw_no_funds'] = '沒有資金可以收回.';
+$_['ms_account_withdraw_no_paypal'] = '請 <a href="index.php?route=seller/account-profile">先指定您的PayPal地址!</a>';
 
 // Account - Stats
 $_['ms_account_stats_heading'] = '統計';
@@ -663,7 +663,6 @@ $_['ms_sort_nickname_desc'] = '名字 (Z - A)';
 $_['ms_sort_nickname_asc'] = '名字 (A - Z)';
 
 // Catalog - Seller profile page
-<<<<<<< HEAD:language/zh-TW/multiseller/multiseller.php
 $_['ms_catalog_sellers'] = '賣家';
 $_['ms_catalog_sellers_empty'] = '現在尚未有任何賣家';
 $_['ms_catalog_seller_profile'] = '查看個人資料';
@@ -682,26 +681,6 @@ $_['ms_catalog_seller_profile_totalsales'] = '總銷售:';
 $_['ms_catalog_seller_profile_totalproducts'] = '所有商品:';
 $_['ms_catalog_seller_profile_view_products'] = '查看商品';
 $_['ms_catalog_seller_profile_view'] = '查看%s的所有商品';
-=======
-$_['ms_catalog_sellers'] = 'Sellers';
-$_['ms_catalog_sellers_empty'] = 'There are no sellers yet.';
-$_['ms_catalog_seller_profile'] = 'View profile';
-$_['ms_catalog_seller_profile_heading'] = '%s\'s profile';
-$_['ms_catalog_seller_profile_breadcrumbs'] = '%s\'s profile';
-$_['ms_catalog_seller_profile_about_seller'] = 'About the seller';
-$_['ms_catalog_seller_profile_products'] = 'Some of seller\'s products';
-$_['ms_catalog_seller_profile_tab_products'] = 'Products';
-
-$_['ms_catalog_seller_profile_social'] = 'Social profiles';
-$_['ms_catalog_seller_profile_country'] = 'Country:';
-$_['ms_catalog_seller_profile_zone'] = 'Region/State:';
-$_['ms_catalog_seller_profile_website'] = 'Website:';
-$_['ms_catalog_seller_profile_company'] = 'Company:';
-$_['ms_catalog_seller_profile_totalsales'] = 'Total sales:';
-$_['ms_catalog_seller_profile_totalproducts'] = 'Total products:';
-$_['ms_catalog_seller_profile_view_products'] = '檢視商品';
-$_['ms_catalog_seller_profile_view'] = '檢視所有 %s 的商品';
->>>>>>> 38a5d94ffdac290872dbb937b3887616c3fb7dce:catalog/language/zh-TW/multiseller/multiseller.php
 
 // Catalog - Seller's products list
 $_['ms_catalog_seller_products_heading'] = '%s的商品';
@@ -709,18 +688,12 @@ $_['ms_catalog_seller_products_breadcrumbs'] = '%s的商品';
 $_['ms_catalog_seller_products_empty'] = '這位賣家尚未有任何商品！';
 
 // Catalog - Seller contact dialog
-<<<<<<< HEAD:language/zh-TW/multiseller/multiseller.php
 $_['ms_sellercontact_title'] = '發訊息給賣家';
 $_['ms_sellercontact_signin'] = '請 <a href="%s">登入</a> 聯絡 %s';
 $_['ms_sellercontact_sendto'] = '發訊息給 %s';
-=======
-$_['ms_sellercontact_title'] = '傳送訊息給賣家';
-$_['ms_sellercontact_signin'] = '請 <a href="%s">登入</a> 以聯絡 %s';
-$_['ms_sellercontact_sendto'] = '傳送訊息給 %s';
->>>>>>> 38a5d94ffdac290872dbb937b3887616c3fb7dce:catalog/language/zh-TW/multiseller/multiseller.php
 $_['ms_sellercontact_text'] = '訊息: ';
 $_['ms_sellercontact_captcha'] = '驗證碼';
-$_['ms_sellercontact_sendmessage'] = '傳送訊息給 %s';
+$_['ms_sellercontact_sendmessage'] = '發訊息給 %s';
 $_['ms_sellercontact_close'] = '關閉';
 $_['ms_sellercontact_send'] = '送出';
 $_['ms_sellercontact_success'] = '您的訊息已成功送出';
