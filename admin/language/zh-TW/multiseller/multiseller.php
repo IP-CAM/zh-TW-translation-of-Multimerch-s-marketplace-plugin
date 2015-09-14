@@ -90,63 +90,63 @@ $_['ms_button_pay_masspay'] = 'Pay via MassPay';
 $_['ms_button_pay_masspay_all'] = 'All Pay via MassPay';
 // Menu
 $_['ms_menu_multiseller'] = 'MultiMerch';
-$_['ms_menu_sellers'] = 'Sellers';
-$_['ms_menu_seller_groups'] = 'Seller groups';
-$_['ms_menu_attributes'] = 'Attributes';
-$_['ms_menu_products'] = 'Products';
-$_['ms_menu_transactions'] = 'Transactions';
-$_['ms_menu_debug'] = 'Debug';
-$_['ms_menu_payment'] = 'Payments';
-$_['ms_menu_addons'] = 'Addons';
-$_['ms_menu_settings'] = 'Settings';
+$_['ms_menu_sellers'] = '賣家';
+$_['ms_menu_seller_groups'] = '賣家群組';
+$_['ms_menu_attributes'] = '＊屬性';
+$_['ms_menu_products'] = '商品';
+$_['ms_menu_transactions'] = '交易紀錄';
+$_['ms_menu_debug'] = '除錯';
+$_['ms_menu_payment'] = '付款（方式）';
+$_['ms_menu_addons'] = '插件';
+$_['ms_menu_settings'] = '設定';
 
 // Settings
-$_['ms_settings_heading'] = 'Settings';
-$_['ms_settings_breadcrumbs'] = 'Settings';
+$_['ms_settings_heading'] = '設定';
+$_['ms_settings_breadcrumbs'] = '設定';
 $_['ms_config_seller_validation'] = 'Seller validation';
 $_['ms_config_seller_validation_note'] = 'Seller validation';
 $_['ms_config_seller_validation_none'] = 'No validation';
-$_['ms_config_seller_validation_activation'] = 'Activation via email';
-$_['ms_config_seller_validation_approval'] = 'Manual approval';
+$_['ms_config_seller_validation_activation'] = '透過電子郵件啟用';
+$_['ms_config_seller_validation_approval'] = '手動批准';
 
 $_['ms_config_product_validation'] = 'Product validation';
 $_['ms_config_product_validation_note'] = 'Product validation';
 $_['ms_config_product_validation_none'] = 'No validation';
-$_['ms_config_product_validation_approval'] = 'Manual approval';
+$_['ms_config_product_validation_approval'] = '手動批准';
 
 $_['ms_config_allow_inactive_seller_products'] = 'Allow inactive sellers to list products';
 $_['ms_config_allow_inactive_seller_products_note'] = 'Allows inactive sellers to list new products, which will be inactive. After approval of such seller all his products will become active at once.';
 
-$_['ms_config_disable_product_after_quantity_depleted'] = 'Disable product after quantity depletes';
-$_['ms_config_disable_product_after_quantity_depleted_note'] = 'The product will be disabled after it is sold out (quantity is 0)';
+$_['ms_config_disable_product_after_quantity_depleted'] = '庫存耗盡時停用商品';
+$_['ms_config_disable_product_after_quantity_depleted_note'] = '商品售完後會轉為停用狀態（數量為 0 ）';
 
 $_['ms_config_allow_relisting'] = 'Allow re-listing disabled products';
 $_['ms_config_allow_relisting_note'] = 'Sellers will be able to re-list the products, which have been disabled (useful if you use product limitation by period or quantity in combination with listing fees)';
 
-$_['ms_config_enable_banner'] = 'Enable seller banners';
-$_['ms_config_enable_banner_note'] = 'Allow sellers to upload a banner that will be displayed on their profile page';
+$_['ms_config_enable_banner'] = '啟用賣家橫幅圖片';
+$_['ms_config_enable_banner_note'] = '允許賣家上傳一個顯示在賣家個人檔案中的橫幅圖片';
 
-$_['ms_config_enable_one_page_seller_registration'] = 'One-page registration';
-$_['ms_config_enable_one_page_seller_registration_note'] = 'Enable seller one-page registration';
+$_['ms_config_enable_one_page_seller_registration'] = '單頁面註冊(One-page registration)';
+$_['ms_config_enable_one_page_seller_registration_note'] = '啟用單頁面註冊賣家(One-page registration)';
 
-$_['ms_config_minmax_product_price'] = 'Minimum and maximum product price';
-$_['ms_config_minimum_product_price'] = 'Min';
-$_['ms_config_maximum_product_price'] = 'Max';
-$_['ms_config_minmax_product_price_note'] = 'Minimum and maximum product price (0 for no limits)';
+$_['ms_config_minmax_product_price'] = '商品價格限制';
+$_['ms_config_minimum_product_price'] = '最小';
+$_['ms_config_maximum_product_price'] = '最大';
+$_['ms_config_minmax_product_price_note'] = '商品價格限制（不限制請輸入 0 ）';
 
 $_['ms_config_allowed_image_types'] = 'Allowed image extensions';
 $_['ms_config_allowed_image_types_note'] = 'Allowed image extensions';
 
-$_['ms_config_images_limits'] = 'Product image limits';
+$_['ms_config_images_limits'] = '商品圖片限制';
 $_['ms_config_images_limits_note'] = 'Minimum and maximum number of images (incl. thumbnail) required/allowed for products (0 = no limit)';
 
-$_['ms_config_downloads_limits'] = 'Product download limits';
+$_['ms_config_downloads_limits'] = '商品下載限制';
 $_['ms_config_downloads_limits_note'] = 'Minimum and maximum number of downloads required/allowed for products (0 = no limit)';
 
 $_['ms_config_allowed_download_types'] = 'Allowed download extensions';
 $_['ms_config_allowed_download_types_note'] = 'Allowed download extensions';
 
-$_['ms_config_credit_order_statuses'] = 'Fund statuses';
+$_['ms_config_credit_order_statuses'] = '金流狀態';
 $_['ms_config_credit_order_statuses_note'] = 'Seller balance will be funded for orders with fund statuses';
 
 $_['ms_config_debit_order_statuses'] = 'Charge statuses';
@@ -161,8 +161,8 @@ $_['ms_config_minimum_withdrawal_note'] = 'Minimum balance amount required to re
 $_['ms_config_allow_partial_withdrawal'] = 'Allow partial payouts';
 $_['ms_config_allow_partial_withdrawal_note'] = 'Allow sellers to request partial payouts';
 
-$_['ms_config_allow_withdrawal_requests'] = 'Allow payout requests';
-$_['ms_config_allow_withdrawal_requests_note'] = 'Allow sellers to request earnings';
+$_['ms_config_allow_withdrawal_requests'] = '允許要求支付';
+$_['ms_config_allow_withdrawal_requests_note'] = '允許賣家要求獲取他們的所得';
 
 $_['ms_config_paypal_sandbox'] = 'PayPal Sandbox mode';
 $_['ms_config_paypal_sandbox_note'] = 'Use PayPal in Sandbox mode for testing and debugging';
@@ -173,11 +173,11 @@ $_['ms_config_paypal_address_note'] = 'Your PayPal address for listing and signu
 $_['ms_config_notification_email'] = 'Admin email for notifications';
 $_['ms_config_notification_email_note'] = 'Email address for various notification mails';
 
-$_['ms_config_allow_free_products'] = 'Allow free products';
-$_['ms_config_allow_free_products_note'] = 'Allow sellers to add free products';
+$_['ms_config_allow_free_products'] = '允許免費商品';
+$_['ms_config_allow_free_products_note'] = '允許賣家上架免費商品';
 
-$_['ms_config_allow_multiple_categories'] = 'Allow multiple categories';
-$_['ms_config_allow_multiple_categories_note'] = 'Allow sellers to add products to multiple categories';
+$_['ms_config_allow_multiple_categories'] = '允許多種類';
+$_['ms_config_allow_multiple_categories_note'] = '允許賣家將商品歸在很多類別下';
 
 $_['ms_config_additional_category_restrictions'] = 'Bulk disallow categories';
 $_['ms_config_additional_category_restrictions_note'] = '<u>Disallow</u> sellers to list products in specific categories';
@@ -187,8 +187,8 @@ $_['ms_parent_categories'] = 'All parent categories';
 $_['ms_config_restrict_categories'] = 'Disallowed categories';
 $_['ms_config_restrict_categories_note'] = '<u>Disallow</u> sellers to list products in these categories';
 
-$_['ms_config_product_included_fields'] = 'Include fields for products';
-$_['ms_config_product_included_fields_note'] = 'Fields to be added in the product form';
+$_['ms_config_product_included_fields'] = '為商品新增其他選擇條件';
+$_['ms_config_product_included_fields_note'] = '在商品選購介面新增其他購買時所需的資訊供顧客填寫或選擇';
 
 $_['ms_config_provide_buyerinfo'] = 'Mail buyer information';
 $_['ms_config_provide_buyerinfo_note'] = 'Include buyer address in the Product purchased email';
@@ -196,23 +196,23 @@ $_['ms_config_provide_buyerinfo_note'] = 'Include buyer address in the Product p
 $_['ms_config_enable_shipping'] = 'Enable OpenCart\'s "Shippable" option';
 $_['ms_config_enable_shipping_note'] = 'New products will be created with OpenCart\'s "Shippable" field enabled. With MultiMerch Shipping Addon installed, this will enable shipping functionality.';
 
-$_['ms_config_enable_quantities'] = 'Enable quantities';
-$_['ms_config_enable_quantities_note'] = 'Allow sellers to specify quantities for products';
+$_['ms_config_enable_quantities'] = '啟用數量管理';
+$_['ms_config_enable_quantities_note'] = '允許賣家指定商品的數量。';
 
-$_['ms_config_seller_terms_page'] = 'Seller account terms';
-$_['ms_config_seller_terms_page_note'] = 'Sellers have to agree to the terms when creating a seller account.';
+$_['ms_config_seller_terms_page'] = '賣家帳戶條款';
+$_['ms_config_seller_terms_page_note'] = '創立賣家帳戶前必須先同意此條款。';
 
-$_['ms_config_allow_specials'] = 'Allow special prices';
-$_['ms_config_allow_specials_note'] = 'Allow sellers to define special prices';
+$_['ms_config_allow_specials'] = '允許特價';
+$_['ms_config_allow_specials_note'] = '允許賣家增加特價規則。';
 
-$_['ms_config_allow_discounts'] = 'Allow quantity discounts';
-$_['ms_config_allow_discounts_note'] = 'Allow sellers to define quantity discounts';
+$_['ms_config_allow_discounts'] = '允許大量採購優惠';
+$_['ms_config_allow_discounts_note'] = '允許賣家增加大量採購時的優惠規則。';
  
 $_['ms_config_withdrawal_waiting_period'] = 'Payout waiting period';
 $_['ms_config_withdrawal_waiting_period_note'] = 'Seller balance entries newer than this value will not be available for payout requests';
 
-$_['ms_config_graphical_sellermenu'] = 'Graphical seller menu';
-$_['ms_config_graphical_sellermenu_note'] = 'Graphical seller menu';
+$_['ms_config_graphical_sellermenu'] = '圖形化賣家選單';
+$_['ms_config_graphical_sellermenu_note'] = '圖形化的賣家選單';
 
 $_['ms_config_productform'] = 'Product form';
 $_['ms_config_finances'] = 'Finances';
