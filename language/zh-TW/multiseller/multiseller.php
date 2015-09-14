@@ -615,81 +615,81 @@ $_['ms_account_withdraw_no_funds'] = 'No funds to withdraw.';
 $_['ms_account_withdraw_no_paypal'] = 'Please <a href="index.php?route=seller/account-profile">specify your PayPal address</a> first!';
 
 // Account - Stats
-$_['ms_account_stats_heading'] = 'Statistics';
-$_['ms_account_stats_breadcrumbs'] = 'Statistics';
-$_['ms_account_stats_tab_summary'] = 'Summary';
-$_['ms_account_stats_tab_by_product'] = 'By Product';
-$_['ms_account_stats_tab_by_year'] = 'By Year';
-$_['ms_account_stats_summary_comment'] = 'Below is a summary of your sales';
-$_['ms_account_stats_sales_data'] = 'Sales data';
-$_['ms_account_stats_number_of_orders'] = 'Number of orders';
-$_['ms_account_stats_total_revenue'] = 'Total revenue';
-$_['ms_account_stats_average_order'] = 'Average order';
-$_['ms_account_stats_statistics'] = 'Statistics';
-$_['ms_account_stats_grand_total'] = 'Grand total sales';
-$_['ms_account_stats_product'] = 'Product';
-$_['ms_account_stats_sold'] = 'Sold';
-$_['ms_account_stats_total'] = 'Total';
-$_['ms_account_stats_this_year'] = 'This Year';
-$_['ms_account_stats_year_comment'] = '<span id="sales_num">%s</span> Sale(s) for specified period';
-$_['ms_account_stats_show_orders'] = 'Show Orders From: ';
-$_['ms_account_stats_month'] = 'Month';
-$_['ms_account_stats_num_of_orders'] = 'Number of orders';
-$_['ms_account_stats_total_r'] = 'Total revenue';
-$_['ms_account_stats_average_order'] = 'Average order';
-$_['ms_account_stats_today'] = 'Today, ';
-$_['ms_account_stats_yesterday'] = 'Yesterday, ';
-$_['ms_account_stats_daily_average'] = 'Daily average for ';
-$_['ms_account_stats_date_month_format'] = 'F Y';
-$_['ms_account_stats_projected_totals'] = 'Projected totals for ';
-$_['ms_account_stats_grand_total_sales'] = 'Grand total sales';
+$_['ms_account_stats_heading'] = '統計';
+$_['ms_account_stats_breadcrumbs'] = '統計';
+$_['ms_account_stats_tab_summary'] = '總結';
+$_['ms_account_stats_tab_by_product'] = '依據商品';
+$_['ms_account_stats_tab_by_year'] = '依據年份';
+$_['ms_account_stats_summary_comment'] = '＊底下是您的銷售總結Below is a summary of your sales';
+$_['ms_account_stats_sales_data'] = '銷售數據';
+$_['ms_account_stats_number_of_orders'] = '訂單數量';
+$_['ms_account_stats_total_revenue'] = '總收入';
+$_['ms_account_stats_average_order'] = '平均訂單';
+$_['ms_account_stats_statistics'] = '統計';
+$_['ms_account_stats_grand_total'] = '總計銷售';
+$_['ms_account_stats_product'] = '商品';
+$_['ms_account_stats_sold'] = '已售商品';
+$_['ms_account_stats_total'] = '總計';
+$_['ms_account_stats_this_year'] = '今年';
+$_['ms_account_stats_year_comment'] = '＊<span id="sales_num">%s</span> 特定時期銷售量';
+$_['ms_account_stats_show_orders'] = '查看訂單: ';
+$_['ms_account_stats_month'] = '月';
+$_['ms_account_stats_num_of_orders'] = '訂單數量';
+$_['ms_account_stats_total_r'] = '總收入';
+$_['ms_account_stats_average_order'] = '平均訂單';
+$_['ms_account_stats_today'] = '今天, ';
+$_['ms_account_stats_yesterday'] = '昨天, ';
+$_['ms_account_stats_daily_average'] = '每日平均 ';
+$_['ms_account_stats_date_month_format'] = '＊F Y';
+$_['ms_account_stats_projected_totals'] = '＊預計總銷售Projected totals for ';
+$_['ms_account_stats_grand_total_sales'] = '總計銷售';
 
 // Product page - Seller information
-$_['ms_catalog_product_sellerinfo'] = 'Seller information';
-$_['ms_catalog_product_contact'] = 'Contact this seller';
+$_['ms_catalog_product_sellerinfo'] = '賣家資訊';
+$_['ms_catalog_product_contact'] = '聯絡賣家';
 
-$_['ms_footer'] = '<br>MultiMerch Marketplace by <a href="http://multimerch.com/">multimerch.com</a>';
+$_['ms_footer'] = '*<br>MultiMerch Marketplace by <a href="http://multimerch.com/">multimerch.com</a>';
 
 // Catalog - Sellers list
-$_['ms_catalog_sellers_heading'] = 'Sellers';
-$_['ms_catalog_sellers_country'] = 'Country:';
-$_['ms_catalog_sellers_website'] = 'Website:';
-$_['ms_catalog_sellers_company'] = 'Company:';
-$_['ms_catalog_sellers_totalsales'] = 'Sales:';
-$_['ms_catalog_sellers_totalproducts'] = 'Products:';
-$_['ms_sort_country_desc'] = 'Country (Z - A)';
-$_['ms_sort_country_asc'] = 'Country (A - Z)';
-$_['ms_sort_nickname_desc'] = 'Name (Z - A)';
-$_['ms_sort_nickname_asc'] = 'Name (A - Z)';
+$_['ms_catalog_sellers_heading'] = '賣家';
+$_['ms_catalog_sellers_country'] = '國家:';
+$_['ms_catalog_sellers_website'] = '網站:';
+$_['ms_catalog_sellers_company'] = '公司:';
+$_['ms_catalog_sellers_totalsales'] = '銷售:';
+$_['ms_catalog_sellers_totalproducts'] = '商品:';
+$_['ms_sort_country_desc'] = '國家 (Z - A)';
+$_['ms_sort_country_asc'] = '國家 (A - Z)';
+$_['ms_sort_nickname_desc'] = '名字 (Z - A)';
+$_['ms_sort_nickname_asc'] = '名字 (A - Z)';
 
 // Catalog - Seller profile page
-$_['ms_catalog_sellers'] = 'Sellers';
-$_['ms_catalog_sellers_empty'] = 'There are no sellers yet.';
-$_['ms_catalog_seller_profile'] = 'View profile';
-$_['ms_catalog_seller_profile_heading'] = '%s\'s profile';
-$_['ms_catalog_seller_profile_breadcrumbs'] = '%s\'s profile';
-$_['ms_catalog_seller_profile_about_seller'] = 'About the seller';
-$_['ms_catalog_seller_profile_products'] = 'Some of seller\'s products';
-$_['ms_catalog_seller_profile_tab_products'] = 'Products';
+$_['ms_catalog_sellers'] = '賣家';
+$_['ms_catalog_sellers_empty'] = '現在尚未有任何賣家';
+$_['ms_catalog_seller_profile'] = '查看個人資料';
+$_['ms_catalog_seller_profile_heading'] = '%s的個人資料';
+$_['ms_catalog_seller_profile_breadcrumbs'] = '%s的個人資料';
+$_['ms_catalog_seller_profile_about_seller'] = '關於賣家';
+$_['ms_catalog_seller_profile_products'] = '＊一些賣家的商品Some of seller\'s products';
+$_['ms_catalog_seller_profile_tab_products'] = '商品';
 
-$_['ms_catalog_seller_profile_social'] = 'Social profiles';
-$_['ms_catalog_seller_profile_country'] = 'Country:';
-$_['ms_catalog_seller_profile_zone'] = 'Region/State:';
-$_['ms_catalog_seller_profile_website'] = 'Website:';
-$_['ms_catalog_seller_profile_company'] = 'Company:';
-$_['ms_catalog_seller_profile_totalsales'] = 'Total sales:';
-$_['ms_catalog_seller_profile_totalproducts'] = 'Total products:';
-$_['ms_catalog_seller_profile_view_products'] = 'View products';
-$_['ms_catalog_seller_profile_view'] = 'View all %s\'s products';
+$_['ms_catalog_seller_profile_social'] = '＊社群資料Social profiles';
+$_['ms_catalog_seller_profile_country'] = '國家:';
+$_['ms_catalog_seller_profile_zone'] = '地區/國家:';
+$_['ms_catalog_seller_profile_website'] = '網站:';
+$_['ms_catalog_seller_profile_company'] = '公司:';
+$_['ms_catalog_seller_profile_totalsales'] = '總銷售:';
+$_['ms_catalog_seller_profile_totalproducts'] = '所有商品:';
+$_['ms_catalog_seller_profile_view_products'] = '查看商品';
+$_['ms_catalog_seller_profile_view'] = '查看%s的所有商品';
 
 // Catalog - Seller's products list
-$_['ms_catalog_seller_products_heading'] = '%s\'s products';
-$_['ms_catalog_seller_products_breadcrumbs'] = '%s\'s products';
-$_['ms_catalog_seller_products_empty'] = 'This seller doesn\'t have any products yet!';
+$_['ms_catalog_seller_products_heading'] = '%s的商品';
+$_['ms_catalog_seller_products_breadcrumbs'] = '%s的商品';
+$_['ms_catalog_seller_products_empty'] = '這位賣家尚未有任何商品！';
 
 // Catalog - Seller contact dialog
 $_['ms_sellercontact_title'] = '發訊息給賣家';
-$_['ms_sellercontact_signin'] = '請 <a href="%s">登入</a> 去聯絡 %s';
+$_['ms_sellercontact_signin'] = '請 <a href="%s">登入</a> 聯絡 %s';
 $_['ms_sellercontact_sendto'] = '發訊息給 %s';
 $_['ms_sellercontact_text'] = '訊息: ';
 $_['ms_sellercontact_captcha'] = '驗證碼';
