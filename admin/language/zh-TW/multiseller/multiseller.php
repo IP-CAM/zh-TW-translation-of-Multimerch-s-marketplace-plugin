@@ -33,7 +33,7 @@ $_['ms_db_success'] = '你的 MultiMerch Marketplace 資料庫現在已經是最
 $_['ms_db_latest'] = '你的 MultiMerch Marketplace 資料庫已經是最新版了！';
 
 $_['heading_title'] = '<b>[MultiMerch]</b> Digital Marketplace';
-$_['text_seller_select'] = '選擇賣家';
+$_['text_seller_select'] = '賣家自行選擇';
 $_['text_shipping_dependent'] = 'Shipping dependent';
 $_['text_no_results'] = '沒有任何結果';
 $_['error_permission'] = '警告：你沒有任何修改模組的權限！';
@@ -59,7 +59,7 @@ $_['ms_paypal'] = 'PayPal';
 $_['ms_date_created'] = '建立日期';
 $_['ms_status'] = '狀態';
 $_['ms_image'] = '圖片';
-$_['ms_date_modified'] = 'Date modified';
+$_['ms_date_modified'] = '修改日期';
 $_['ms_date_paid'] = '付款日期';
 $_['ms_date'] = '日期';
 $_['ms_description'] = '描述';
@@ -96,7 +96,7 @@ $_['ms_menu_attributes'] = '＊屬性';
 $_['ms_menu_products'] = '商品';
 $_['ms_menu_transactions'] = '交易紀錄';
 $_['ms_menu_debug'] = '除錯';
-$_['ms_menu_payment'] = '付款（方式）';
+$_['ms_menu_payment'] = '金流';
 $_['ms_menu_addons'] = '插件';
 $_['ms_menu_settings'] = '設定';
 
@@ -134,8 +134,8 @@ $_['ms_config_minimum_product_price'] = '最小';
 $_['ms_config_maximum_product_price'] = '最大';
 $_['ms_config_minmax_product_price_note'] = '商品價格限制（不限制請輸入 0 ）';
 
-$_['ms_config_allowed_image_types'] = 'Allowed image extensions';
-$_['ms_config_allowed_image_types_note'] = 'Allowed image extensions';
+$_['ms_config_allowed_image_types'] = '允許的圖片格式';
+$_['ms_config_allowed_image_types_note'] = '允許上傳的圖片格式';
 
 $_['ms_config_images_limits'] = '商品圖片限制';
 $_['ms_config_images_limits_note'] = 'Minimum and maximum number of images (incl. thumbnail) required/allowed for products (0 = no limit)';
@@ -143,8 +143,8 @@ $_['ms_config_images_limits_note'] = 'Minimum and maximum number of images (incl
 $_['ms_config_downloads_limits'] = '商品下載限制';
 $_['ms_config_downloads_limits_note'] = 'Minimum and maximum number of downloads required/allowed for products (0 = no limit)';
 
-$_['ms_config_allowed_download_types'] = 'Allowed download extensions';
-$_['ms_config_allowed_download_types_note'] = 'Allowed download extensions';
+$_['ms_config_allowed_download_types'] = '允許的檔案格式';
+$_['ms_config_allowed_download_types_note'] = '允許的檔案格式';
 
 $_['ms_config_credit_order_statuses'] = '金流狀態';
 $_['ms_config_credit_order_statuses_note'] = 'Seller balance will be funded for orders with fund statuses';
@@ -184,11 +184,11 @@ $_['ms_config_additional_category_restrictions_note'] = '<u>Disallow</u> sellers
 $_['ms_topmost_categories'] = 'Topmost categories';
 $_['ms_parent_categories'] = 'All parent categories';
 
-$_['ms_config_restrict_categories'] = 'Disallowed categories';
+$_['ms_config_restrict_categories'] = '不允許使用的類別';
 $_['ms_config_restrict_categories_note'] = '<u>Disallow</u> sellers to list products in these categories';
 
-$_['ms_config_product_included_fields'] = '為商品新增其他選擇條件';
-$_['ms_config_product_included_fields_note'] = '在商品選購介面新增其他購買時所需的資訊供顧客填寫或選擇';
+$_['ms_config_product_included_fields'] = '為商品選擇其它包含的資訊';
+$_['ms_config_product_included_fields_note'] = '所選擇的資訊將會出現在商品格式。';
 
 $_['ms_config_provide_buyerinfo'] = 'Mail buyer information';
 $_['ms_config_provide_buyerinfo_note'] = 'Include buyer address in the Product purchased email';
@@ -219,43 +219,43 @@ $_['ms_config_finances'] = 'Finances';
 $_['ms_config_miscellaneous'] = 'Miscellaneous';
 
 $_['ms_config_module'] = 'Modules';
-$_['ms_config_status'] = 'Status';
+$_['ms_config_status'] = '狀態';
 $_['ms_config_top'] = 'Content Top';
 $_['ms_config_bottom'] = 'Content Bottom';
 $_['ms_config_column_left'] = 'Column Left';
 $_['ms_config_column_right'] = 'Column Right';
-$_['ms_config_limit'] = 'Limit:';
+$_['ms_config_limit'] = '限制：';
 $_['ms_config_scroll'] = 'Scroll:';
 $_['ms_config_image'] = 'Image (W x H):';
 $_['ms_config_layout'] = 'Layout:';
 $_['ms_config_position'] = 'Position:';
 $_['ms_config_sort_order'] = 'Sort Order:';
 
-$_['ms_config_enable_rte'] = 'Enable Rich Text Editor for descriptions';
-$_['ms_config_enable_rte_note'] = 'Enable Summernote Rich Text Editor for product and seller description fields.';
+$_['ms_config_enable_rte'] = '在描述中啟用 Rich Text 編輯器';
+$_['ms_config_enable_rte_note'] = '在商品跟賣家的描述編輯欄位中中啟用 Summernote Rich Text 編輯器。';
 
 $_['ms_config_rte_whitelist'] = 'Tag whitelist';
 $_['ms_config_rte_whitelist_note'] = 'Permitted tags in RTE (empty = all tags permitted)';
 
-$_['ms_config_image_sizes'] = 'Image sizes';
+$_['ms_config_image_sizes'] = '圖片大小';
 $_['ms_config_seller_avatar_image_size'] = 'Avatar image size';
-$_['ms_config_seller_avatar_image_size_seller_profile'] = 'Seller profile';
+$_['ms_config_seller_avatar_image_size_seller_profile'] = '賣家個人檔案';
 $_['ms_config_seller_avatar_image_size_seller_list'] = 'Seller list';
-$_['ms_config_seller_avatar_image_size_product_page'] = 'Product page';
+$_['ms_config_seller_avatar_image_size_product_page'] = '商品頁';
 $_['ms_config_seller_avatar_image_size_seller_dashboard'] = 'Seller dashboard';
 $_['ms_config_seller_banner_size'] = 'Seller banner size';
 
-$_['ms_config_image_preview_size'] = 'Image preview size';
+$_['ms_config_image_preview_size'] = '預覽圖片大小';
 $_['ms_config_image_preview_size_seller_avatar'] = 'Seller avatar';
-$_['ms_config_image_preview_size_product_image'] = 'Product image';
+$_['ms_config_image_preview_size_product_image'] = '商品圖片';
 
-$_['ms_config_product_image_size'] = 'Product image size';
-$_['ms_config_product_image_size_seller_profile'] = 'Seller profile';
+$_['ms_config_product_image_size'] = '商品圖片大小';
+$_['ms_config_product_image_size_seller_profile'] = '賣家個人檔案';
 $_['ms_config_product_image_size_seller_products_list'] = 'Catalog products';
 $_['ms_config_product_image_size_seller_products_list_account'] = 'Account products';
 
 
-$_['ms_config_uploaded_image_size'] = 'Image size limits';
+$_['ms_config_uploaded_image_size'] = '圖片大小限制';
 $_['ms_config_uploaded_image_size_note'] = 'Define uploaded image dimension limits (W x H). Set 0 for no limits.';
 $_['ms_config_max'] = 'Max.';
 $_['ms_config_min'] = 'Min.';
