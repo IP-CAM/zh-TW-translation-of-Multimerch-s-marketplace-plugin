@@ -556,21 +556,21 @@ $_['ms_payment_status_' . MsPayment::STATUS_UNPAID] = 'Unpaid';
 $_['ms_payment_status_' . MsPayment::STATUS_PAID] = 'Paid';
 
 // Account - Orders
-$_['ms_account_orders_heading'] = 'Your Orders';
-$_['ms_account_orders_breadcrumbs'] = 'Your Orders';
-$_['ms_account_orders_id'] = 'Order #';
-$_['ms_account_orders_customer'] = 'Customer';
-$_['ms_account_orders_products'] = 'Products';
-$_['ms_account_orders_history'] = 'History';
-$_['ms_account_orders_addresses'] = 'Addresses';
-$_['ms_account_orders_total'] = 'Total amount';
-$_['ms_account_orders_view'] = 'View order';
-$_['ms_account_orders_noorders'] = 'You don\'t have any orders yet!';
-$_['ms_account_orders_nohistory'] = 'There is no history for this order yet!';
-$_['ms_account_orders_change_status']    = 'Change order status';
-$_['ms_account_orders_add_comment']    = 'Add order comment...';
+$_['ms_account_orders_heading'] = '您的訂單';
+$_['ms_account_orders_breadcrumbs'] = '您的訂單';
+$_['ms_account_orders_id'] = '訂單 #';
+$_['ms_account_orders_customer'] = '顧客';
+$_['ms_account_orders_products'] = '商品';
+$_['ms_account_orders_history'] = '歷史紀錄';
+$_['ms_account_orders_addresses'] = '地址';
+$_['ms_account_orders_total'] = '總量';
+$_['ms_account_orders_view'] = '查看訂單';
+$_['ms_account_orders_noorders'] = '您目前尚未有任何訂單!';
+$_['ms_account_orders_nohistory'] = '這筆訂單目前尚未有任何歷史紀錄!';
+$_['ms_account_orders_change_status']    = '修改訂單狀態';
+$_['ms_account_orders_add_comment']    = '新增訂單評價...';
 
-$_['ms_account_order_information'] = 'Order Information';
+$_['ms_account_order_information'] = '訂單訊息';
 
 // Account - Dashboard
 $_['ms_account_dashboard_heading'] = '＊賣家資訊';
