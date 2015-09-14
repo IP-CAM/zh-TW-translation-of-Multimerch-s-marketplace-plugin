@@ -45,98 +45,98 @@ $_['ms_button_select_image'] = '選擇圖片';
 $_['ms_button_select_images'] = '選擇圖片';
 $_['ms_button_select_files'] = '選擇檔案';
 
-$_['ms_transaction_order_created'] = 'Order created';
+$_['ms_transaction_order_created'] = '建立訂單';
 $_['ms_transaction_order'] = 'Sale: Order Id #%s';
 $_['ms_transaction_sale'] = 'Sale: %s (-%s commission)';
 $_['ms_transaction_refund'] = 'Refund: %s';
 $_['ms_transaction_listing'] = 'Product listing: %s (%s)';
 $_['ms_transaction_signup']      = 'Signup fee at %s';
-$_['ms_request_submitted'] = 'Your request is submitted';
+$_['ms_request_submitted'] = '你的要求已經送出';
 
 $_['ms_totals_line'] = 'Curnently %s sellers and %s products for sale!';
 
-$_['ms_text_welcome'] = '<a href="%s">Login</a> | <a href="%s">Create an account</a> | <a href="%s">Create a seller account</a>.';
-$_['ms_button_register_seller'] = 'Register as a seller';
-$_['ms_register_seller_account'] = 'Register a seller account';
+$_['ms_text_welcome'] = '<a href="%s">登入</a> | <a href="%s">建立一個帳戶</a> | <a href="%s">建立一個賣家帳戶</a>.';
+$_['ms_button_register_seller'] = '註冊成為賣家';
+$_['ms_register_seller_account'] = '註冊一個賣家帳戶';
 
 // Mails
 
 // Seller
-$_['ms_mail_greeting'] = "Hello %s,\n\n";
-$_['ms_mail_greeting_no_name'] = "Hello,\n\n";
+$_['ms_mail_greeting'] = "您好 %s，\n\n";
+$_['ms_mail_greeting_no_name'] = "您好，\n\n";
 $_['ms_mail_ending'] = "\n\nRegards,\n%s";
 $_['ms_mail_message'] = "\n\nMessage:\n%s";
 
-$_['ms_mail_subject_seller_account_created'] = 'Seller account created';
+$_['ms_mail_subject_seller_account_created'] = '建立賣家帳戶';
 $_['ms_mail_seller_account_created'] = <<<EOT
-Your seller account at %s has been created!
+您在 %s 的賣家帳戶 已經建立！
 
-You can now start adding your products.
+現在，您可以開始販賣您的商品。
 EOT;
 
-$_['ms_mail_subject_seller_account_awaiting_moderation'] = 'Seller account awaiting moderation';
+$_['ms_mail_subject_seller_account_awaiting_moderation'] = '您的帳號正在等待審核中';
 $_['ms_mail_seller_account_awaiting_moderation'] = <<<EOT
-Your seller account at %s has been created and is now awaiting moderation.
+您在 %s 的賣家帳戶已經建立，現在正在等待審核。
 
-You will receive an email as soon as it is approved.
+您的帳戶審核通過後我們將以電子郵件通知您。
 EOT;
 
-$_['ms_mail_subject_product_awaiting_moderation'] = 'Product awaiting moderation';
+$_['ms_mail_subject_product_awaiting_moderation'] = '商品等待審核中';
 $_['ms_mail_product_awaiting_moderation'] = <<<EOT
-Your product %s at %s is awaiting moderation.
+您在 %s 的商品 %s 正在審核中。
 
-You will receive an email as soon as it is processed.
+審核通過後我們將以電子郵件通知您。
 EOT;
 
-$_['ms_mail_subject_product_purchased'] = 'New order';
+$_['ms_mail_subject_product_purchased'] = '新的訂單';
 $_['ms_mail_product_purchased'] = <<<EOT
-Your product(s) have been purchased from %s.
+您的商品已經被 %s 購買。
 
-Customer: %s (%s)
+顧客： %s (%s)
 
-Products:
+商品：
 %s
-Total: %s
+總金額： %s
 EOT;
 
 $_['ms_mail_product_purchased_no_email'] = <<<EOT
-Your product(s) have been purchased from %s.
+您的商品已經被 %s 購買。
 
-Customer: %s
+顧客： %s
 
-Products:
+商品：
 %s
-Total: %s
+總金額： %s
 EOT;
 
-$_['ms_mail_subject_seller_contact'] = 'New customer message';
+$_['ms_mail_subject_seller_contact'] = '來自顧客的新訊息';
 $_['ms_mail_seller_contact'] = <<<EOT
-You have received a new customer message!
+您收到一則來自顧客的新訊息！
 
-Name: %s
+客戶名稱： %s
 
-Email: %s
+Email： %s
 
-Product: %s
+商品： %s
 
-Message:
+訊息：
 %s
 EOT;
 
 $_['ms_mail_seller_contact_no_mail'] = <<<EOT
-You have received a new customer message!
+您收到一則來自顧客的新訊息！
 
-Name: %s
+客戶名稱： %s
 
-Product: %s
+商品： %s
 
-Message:
+訊息：
 %s
 EOT;
 
 $_['ms_mail_product_purchased_info'] = <<<EOT
 \n
-Delivery address:
+＊運送地址：
 
 %s %s
 %s
@@ -149,19 +149,19 @@ EOT;
 
 $_['ms_mail_product_purchased_comment'] = 'Comment: %s';
 
-$_['ms_mail_subject_withdraw_request_submitted'] = 'Payout request submitted';
+$_['ms_mail_subject_withdraw_request_submitted'] = '付款要求已經送出';
 $_['ms_mail_withdraw_request_submitted'] = <<<EOT
-We have received your payout request. You will receive your earnings as soon as it is processed.
+我們已經收到您的付款要求，您將在相關程序處理完成後收到帳款。
 EOT;
 
-$_['ms_mail_subject_withdraw_request_completed'] = 'Payout completed';
+$_['ms_mail_subject_withdraw_request_completed'] = '付款完成';
 $_['ms_mail_withdraw_request_completed'] = <<<EOT
-Your payout request has been processed. You should now receive your earnings.
+您的付款要求已經處理完成，請確認您是否收到帳款。
 EOT;
 
-$_['ms_mail_subject_withdraw_request_declined'] = 'Payout request declined';
+$_['ms_mail_subject_withdraw_request_declined'] = '付款要求已被拒絕';
 $_['ms_mail_withdraw_request_declined'] = <<<EOT
-Your payout request has been declined. Your funds have been returned to your balance at %s.
+您的付款要求已被拒絕， Your funds have been returned to your balance at %s.
 EOT;
 
 $_['ms_mail_subject_transaction_performed'] = 'New transaction';
@@ -177,7 +177,7 @@ EOT;
 // *********
 // * Admin *
 // *********
-$_['ms_mail_admin_subject_seller_account_created'] = 'New seller account created';
+$_['ms_mail_admin_subject_seller_account_created'] = '新的賣家帳戶已經建立';
 $_['ms_mail_admin_seller_account_created'] = <<<EOT
 New seller account at %s has been created!
 Seller name: %s (%s)
@@ -663,6 +663,7 @@ $_['ms_sort_nickname_desc'] = '名字 (Z - A)';
 $_['ms_sort_nickname_asc'] = '名字 (A - Z)';
 
 // Catalog - Seller profile page
+<<<<<<< HEAD:language/zh-TW/multiseller/multiseller.php
 $_['ms_catalog_sellers'] = '賣家';
 $_['ms_catalog_sellers_empty'] = '現在尚未有任何賣家';
 $_['ms_catalog_seller_profile'] = '查看個人資料';
@@ -681,6 +682,26 @@ $_['ms_catalog_seller_profile_totalsales'] = '總銷售:';
 $_['ms_catalog_seller_profile_totalproducts'] = '所有商品:';
 $_['ms_catalog_seller_profile_view_products'] = '查看商品';
 $_['ms_catalog_seller_profile_view'] = '查看%s的所有商品';
+=======
+$_['ms_catalog_sellers'] = 'Sellers';
+$_['ms_catalog_sellers_empty'] = 'There are no sellers yet.';
+$_['ms_catalog_seller_profile'] = 'View profile';
+$_['ms_catalog_seller_profile_heading'] = '%s\'s profile';
+$_['ms_catalog_seller_profile_breadcrumbs'] = '%s\'s profile';
+$_['ms_catalog_seller_profile_about_seller'] = 'About the seller';
+$_['ms_catalog_seller_profile_products'] = 'Some of seller\'s products';
+$_['ms_catalog_seller_profile_tab_products'] = 'Products';
+
+$_['ms_catalog_seller_profile_social'] = 'Social profiles';
+$_['ms_catalog_seller_profile_country'] = 'Country:';
+$_['ms_catalog_seller_profile_zone'] = 'Region/State:';
+$_['ms_catalog_seller_profile_website'] = 'Website:';
+$_['ms_catalog_seller_profile_company'] = 'Company:';
+$_['ms_catalog_seller_profile_totalsales'] = 'Total sales:';
+$_['ms_catalog_seller_profile_totalproducts'] = 'Total products:';
+$_['ms_catalog_seller_profile_view_products'] = '檢視商品';
+$_['ms_catalog_seller_profile_view'] = '檢視所有 %s 的商品';
+>>>>>>> 38a5d94ffdac290872dbb937b3887616c3fb7dce:catalog/language/zh-TW/multiseller/multiseller.php
 
 // Catalog - Seller's products list
 $_['ms_catalog_seller_products_heading'] = '%s的商品';
@@ -688,12 +709,18 @@ $_['ms_catalog_seller_products_breadcrumbs'] = '%s的商品';
 $_['ms_catalog_seller_products_empty'] = '這位賣家尚未有任何商品！';
 
 // Catalog - Seller contact dialog
+<<<<<<< HEAD:language/zh-TW/multiseller/multiseller.php
 $_['ms_sellercontact_title'] = '發訊息給賣家';
 $_['ms_sellercontact_signin'] = '請 <a href="%s">登入</a> 聯絡 %s';
 $_['ms_sellercontact_sendto'] = '發訊息給 %s';
+=======
+$_['ms_sellercontact_title'] = '傳送訊息給賣家';
+$_['ms_sellercontact_signin'] = '請 <a href="%s">登入</a> 以聯絡 %s';
+$_['ms_sellercontact_sendto'] = '傳送訊息給 %s';
+>>>>>>> 38a5d94ffdac290872dbb937b3887616c3fb7dce:catalog/language/zh-TW/multiseller/multiseller.php
 $_['ms_sellercontact_text'] = '訊息: ';
 $_['ms_sellercontact_captcha'] = '驗證碼';
-$_['ms_sellercontact_sendmessage'] = '發訊息給 %s';
+$_['ms_sellercontact_sendmessage'] = '傳送訊息給 %s';
 $_['ms_sellercontact_close'] = '關閉';
 $_['ms_sellercontact_send'] = '送出';
 $_['ms_sellercontact_success'] = '您的訊息已成功送出';

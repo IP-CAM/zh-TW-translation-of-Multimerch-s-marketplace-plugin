@@ -1,5 +1,9 @@
 zh-TW translation of [Multimerch](http://multimerch.com/)'s marketplace plugin on OpenCart
 ===
+Translator
+
+* [spyf](https://github.com/spyf)
+* [ching.lin](https://github.com/wanching)
 
 Disclaimer
 ---
