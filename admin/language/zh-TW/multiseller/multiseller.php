@@ -553,19 +553,19 @@ Delivery address:
 %s
 EOT;
 
-$_['ms_mail_product_purchased_comment'] = 'Comment: %s';
+$_['ms_mail_product_purchased_comment'] = '評價: %s';
 
 // Sales - Mail
-$_['ms_transaction_order_created'] = 'Order created';
-$_['ms_transaction_order'] = 'Sale: Order Id #%s';
-$_['ms_transaction_sale'] = 'Sale: %s (-%s commission)';
-$_['ms_transaction_refund'] = 'Refund: %s';
-$_['ms_payment_method'] = 'Payment method';
-$_['ms_payment_method_balance'] = 'Seller balance';
+$_['ms_transaction_order_created'] = '訂單建立';
+$_['ms_transaction_order'] = '銷售: 訂單編號 #%s';
+$_['ms_transaction_sale'] = '銷售: %s (-%s 佣金)';
+$_['ms_transaction_refund'] = '退款: %s';
+$_['ms_payment_method'] = '付款方式';
+$_['ms_payment_method_balance'] = '賣家餘額';
 $_['ms_payment_method_paypal'] = 'PayPal';
 $_['ms_payment_method_inherit'] = 'Inherit';
-$_['ms_payment_royalty_payout'] = 'Royalty payout to %s at %s';
-$_['ms_payment_generic'] = 'Payment #%s at %s';
-$_['ms_payment_completed'] = 'Payment completed';
+$_['ms_payment_royalty_payout'] = '版稅支付 to %s at %s';
+$_['ms_payment_generic'] = '付款 #%s 在 %s';
+$_['ms_payment_completed'] = '付款完成';
 
 ?>
