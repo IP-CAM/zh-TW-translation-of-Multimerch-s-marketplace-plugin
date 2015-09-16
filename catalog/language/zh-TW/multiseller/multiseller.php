@@ -573,9 +573,9 @@ $_['ms_account_orders_add_comment']    = '新增訂單評價...';
 $_['ms_account_order_information'] = '訂單訊息';
 
 // Account - Dashboard
-$_['ms_account_dashboard_heading'] = '＊賣家資訊';
-$_['ms_account_dashboard_breadcrumbs'] = '＊賣家資訊';
-$_['ms_account_dashboard_orders'] = '＊最後訂單';
+$_['ms_account_dashboard_heading'] = '賣家資訊';
+$_['ms_account_dashboard_breadcrumbs'] = '賣家資訊';
+$_['ms_account_dashboard_orders'] = '最新訂單';
 $_['ms_account_dashboard_overview'] = '概觀';
 $_['ms_account_dashboard_seller_group'] = '賣家群組';
 $_['ms_account_dashboard_listing'] = '上市費';
