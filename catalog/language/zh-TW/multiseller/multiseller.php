@@ -454,41 +454,41 @@ $_['ms_seller_status_' . MsSeller::STATUS_DELETED] = 'Deleted';
 $_['ms_seller_status_' . MsSeller::STATUS_UNPAID] = 'Unpaid signup fee';
 
 // Account - Products
-$_['ms_account_products_heading'] = 'Your Products';
-$_['ms_account_products_breadcrumbs'] = 'Your Products';
-$_['ms_account_products_image'] = 'Image';
-$_['ms_account_products_product'] = 'Product';
-$_['ms_account_products_sales'] = 'Sales';
-$_['ms_account_products_earnings'] = 'Earnings';
-$_['ms_account_products_status'] = 'Status';
-$_['ms_account_products_date'] = 'Date added';
-$_['ms_account_products_listing_until'] = 'Listing until';
-$_['ms_account_products_action'] = 'Action';
-$_['ms_account_products_noproducts'] = 'You don\'t have any products yet!';
-$_['ms_account_products_confirmdelete'] = 'Are you sure you want to delete your product?';
+$_['ms_account_products_heading'] = '您的商品';
+$_['ms_account_products_breadcrumbs'] = '您的商品';
+$_['ms_account_products_image'] = '相片';
+$_['ms_account_products_product'] = '商品';
+$_['ms_account_products_sales'] = '銷售';
+$_['ms_account_products_earnings'] = '收入';
+$_['ms_account_products_status'] = '狀態';
+$_['ms_account_products_date'] = '添加日期';
+$_['ms_account_products_listing_until'] = '＊上市之前';
+$_['ms_account_products_action'] = '行為';
+$_['ms_account_products_noproducts'] = '您目前沒有任何商品!';
+$_['ms_account_products_confirmdelete'] = '您確定要刪除商品?';
 
-$_['ms_not_defined'] = 'Not defined';
+$_['ms_not_defined'] = '未定義';
 
-$_['ms_product_status_' . MsProduct::STATUS_ACTIVE] = 'Active';
-$_['ms_product_status_' . MsProduct::STATUS_INACTIVE] = 'Inactive';
-$_['ms_product_status_' . MsProduct::STATUS_DISABLED] = 'Disabled';
-$_['ms_product_status_' . MsProduct::STATUS_DELETED] = 'Deleted';
-$_['ms_product_status_' . MsProduct::STATUS_UNPAID] = 'Unpaid listing fee';
+$_['ms_product_status_' . MsProduct::STATUS_ACTIVE] = '啟用';
+$_['ms_product_status_' . MsProduct::STATUS_INACTIVE] = '未啟用';
+$_['ms_product_status_' . MsProduct::STATUS_DISABLED] = '禁用';
+$_['ms_product_status_' . MsProduct::STATUS_DELETED] = '刪除';
+$_['ms_product_status_' . MsProduct::STATUS_UNPAID] = '未付上市費';
 
 // Account - Conversations and Messages
-$_['ms_account_conversations'] = 'Conversations';
-$_['ms_account_messages'] = 'Messages';
+$_['ms_account_conversations'] = '談話';
+$_['ms_account_messages'] = '訊息';
 
-$_['ms_account_conversations_heading'] = 'Your Conversations';
-$_['ms_account_conversations_breadcrumbs'] = 'Your Conversations';
+$_['ms_account_conversations_heading'] = '您的談話';
+$_['ms_account_conversations_breadcrumbs'] = '您的談話';
 
-$_['ms_account_conversations_status'] = 'Status';
-$_['ms_account_conversations_date_created'] = 'Date created';
-$_['ms_account_conversations_with'] = 'Conversation with';
-$_['ms_account_conversations_title'] = 'Title';
+$_['ms_account_conversations_status'] = '狀態';
+$_['ms_account_conversations_date_created'] = '建立日期';
+$_['ms_account_conversations_with'] = '＊談話';
+$_['ms_account_conversations_title'] = '標題';
 
-$_['ms_conversation_title_product'] = 'Inquiry about product: %s';
-$_['ms_conversation_title'] = 'Inquiry from %s';
+$_['ms_conversation_title_product'] = '詢問商品: %s';
+$_['ms_conversation_title'] = '＊詢問 %s ';
 
 $_['ms_account_conversations_read'] = '已讀';
 $_['ms_account_conversations_unread'] = '未讀';
