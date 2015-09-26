@@ -69,30 +69,30 @@ $_['ms_mail_message'] = "\n\nMessage:\n%s";
 
 $_['ms_mail_subject_seller_account_created'] = '建立賣家帳戶';
 $_['ms_mail_seller_account_created'] = <<<EOT
-您在 %s 的賣家帳戶 已經建立！
+您在%s的賣家帳戶 已經建立！
 
 現在，您可以開始販賣您的商品。
 EOT;
 
 $_['ms_mail_subject_seller_account_awaiting_moderation'] = '您的帳號正在等待審核中';
 $_['ms_mail_seller_account_awaiting_moderation'] = <<<EOT
-您在 %s 的賣家帳戶已經建立，現在正在等待審核。
+您在%s的賣家帳戶已經建立，現在正在等待審核。
 
 您的帳戶審核通過後我們將以電子郵件通知您。
 EOT;
 
 $_['ms_mail_subject_product_awaiting_moderation'] = '商品等待審核中';
 $_['ms_mail_product_awaiting_moderation'] = <<<EOT
-您在 %s 的商品 %s 正在審核中。
+您在%s的商品%s正在審核中。
 
 審核通過後我們將以電子郵件通知您。
 EOT;
 
 $_['ms_mail_subject_product_purchased'] = '新的訂單';
 $_['ms_mail_product_purchased'] = <<<EOT
-您的商品已經被 %s 購買。
+您的商品已經被%s購買。
 
-顧客： %s (%s)
+顧客：%s (%s)
 
 商品：
 %s
@@ -102,22 +102,22 @@ EOT;
 $_['ms_mail_product_purchased_no_email'] = <<<EOT
 您的商品已經被 %s 購買。
 
-顧客： %s
+顧客：%s
 
 商品：
 %s
-總金額： %s
+總金額：%s
 EOT;
 
 $_['ms_mail_subject_seller_contact'] = '來自顧客的新訊息';
 $_['ms_mail_seller_contact'] = <<<EOT
 您收到一則來自顧客的新訊息！
 
-客戶名稱： %s
+客戶名稱：%s
 
-Email： %s
+Email：%s
 
-商品： %s
+商品：%s
 
 訊息：
 %s
@@ -126,9 +126,9 @@ EOT;
 $_['ms_mail_seller_contact_no_mail'] = <<<EOT
 您收到一則來自顧客的新訊息！
 
-客戶名稱： %s
+客戶名稱：%s
 
-商品： %s
+商品：%s
 
 訊息：
 %s
@@ -179,8 +179,8 @@ EOT;
 // *********
 $_['ms_mail_admin_subject_seller_account_created'] = '新的賣家帳戶已經建立';
 $_['ms_mail_admin_seller_account_created'] = <<<EOT
-New seller account at %s has been created!
-Seller name: %s (%s)
+新的賣家帳戶已經在%s建立
+賣家名稱：%s (%s)
 E-mail: %s
 EOT;
 
@@ -295,15 +295,15 @@ $_['ms_account_register_seller_success_approval'] = '<p>Welcome to %s!</p> <p>Yo
 
 $_['ms_seller'] = 'Seller';
 $_['ms_seller_forseller'] = 'For seller';
-$_['ms_account_dashboard'] = 'Dashboard';
+$_['ms_account_dashboard'] = '總覽';
 $_['ms_account_seller_account'] = 'Seller Account';
 $_['ms_account_customer_account'] = 'Customer Account';
-$_['ms_account_sellerinfo'] = 'Seller profile';
+$_['ms_account_sellerinfo'] = '賣家資訊';
 $_['ms_account_sellerinfo_new'] = 'New seller account';
-$_['ms_account_newproduct'] = 'New product';
-$_['ms_account_products'] = 'Products';
+$_['ms_account_newproduct'] = '新增商品';
+$_['ms_account_products'] = '管理商品';
 $_['ms_account_transactions'] = 'Transactions';
-$_['ms_account_orders'] = 'Orders';
+$_['ms_account_orders'] = '您的訂單';
 $_['ms_account_withdraw'] = 'Request payout';
 $_['ms_account_stats'] = 'Statistics';
 
@@ -411,9 +411,9 @@ $_['ms_account_relist_product_heading'] = 'Relist Product';
 $_['ms_account_relist_product_breadcrumbs'] = 'Relist Product';
 
 // Account - Seller
-$_['ms_account_sellerinfo_heading'] = 'Seller Profile';
-$_['ms_account_sellerinfo_breadcrumbs'] = 'Seller Profile';
-$_['ms_account_sellerinfo_nickname'] = 'Nickname';
+$_['ms_account_sellerinfo_heading'] = '賣家資訊';
+$_['ms_account_sellerinfo_breadcrumbs'] = '賣家資訊';
+$_['ms_account_sellerinfo_nickname'] = '暱稱';
 $_['ms_account_sellerinfo_nickname_note'] = 'Specify your seller nickname.';
 $_['ms_account_sellerinfo_description'] = 'Description';
 $_['ms_account_sellerinfo_description_note'] = 'Describe yourself';
@@ -596,10 +596,10 @@ $_['ms_account_dashboard_nav_balance'] = '查看你的財務記錄';
 $_['ms_account_dashboard_nav_payout'] = '請求付款';
 
 // Account - Request withdrawal
-$_['ms_account_withdraw_heading'] = '＊請求付款';
+$_['ms_account_withdraw_heading'] = '請求付款';
 $_['ms_account_withdraw_breadcrumbs'] = '請求付款';
 $_['ms_account_withdraw_balance'] = '您目前的餘額:';
-$_['ms_account_withdraw_balance_available'] = '＊Available for withdrawal:';
+$_['ms_account_withdraw_balance_available'] = '可提領金額：';
 $_['ms_account_withdraw_minimum'] = '最低支付金額:';
 $_['ms_account_balance_reserved_formatted'] = '＊-%s pending withdrawal';
 $_['ms_account_balance_waiting_formatted'] = '＊-%s 等待時間';

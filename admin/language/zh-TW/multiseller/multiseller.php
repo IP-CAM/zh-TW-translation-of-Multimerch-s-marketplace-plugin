@@ -257,11 +257,11 @@ $_['ms_config_product_image_size_seller_products_list_account'] = 'Account produ
 
 $_['ms_config_uploaded_image_size'] = '圖片大小限制';
 $_['ms_config_uploaded_image_size_note'] = 'Define uploaded image dimension limits (W x H). Set 0 for no limits.';
-$_['ms_config_max'] = 'Max.';
-$_['ms_config_min'] = 'Min.';
+$_['ms_config_max'] = '最大';
+$_['ms_config_min'] = '最小';
 
 $_['ms_config_seo'] = 'SEO';
-$_['ms_config_enable_seo_urls_seller'] = 'Generate SEO URLs for new sellers';
+$_['ms_config_enable_seo_urls_seller'] = '為新的賣家建立 SEO 連結';
 $_['ms_config_enable_seo_urls_seller_note'] = 'This option will generate SEO-friendly URLs for new sellers. SEO URLs need to be enabled in OpenCart to use this.';
 $_['ms_config_enable_seo_urls_product'] = 'Generate SEO URLs for new products (experimental)';
 $_['ms_config_enable_seo_urls_product_note'] = 'This option will generate SEO-friendly URLs for new product. SEO URLs need to be enabled in OpenCart to use this. Experimental, especially for non-English stores.';
@@ -269,18 +269,18 @@ $_['ms_config_enable_update_seo_urls'] = 'Enable SEO URLs generation for updated
 $_['ms_config_enable_update_seo_urls_note'] = 'This setting enables new SEO URLs generation, when existing products are updated.';
 $_['ms_config_enable_non_alphanumeric_seo'] = 'Allow UTF8 in SEO URLs (experimental)';
 $_['ms_config_enable_non_alphanumeric_seo_note'] = 'This will not strip UTF8 symbols from SEO URLs. Use at your own risk.';
-$_['ms_config_sellers_slug'] = 'Sellers SEO keyword';
+$_['ms_config_sellers_slug'] = '賣家 SEO 關鍵字';
 $_['ms_config_sellers_slug_note'] = 'Sellers list SEO keyword (will work only if SEO is enabled)';
 
-$_['ms_config_attributes'] = 'Attributes';
-$_['ms_config_attribute_display'] = 'Attribute display';
+$_['ms_config_attributes'] = '屬性';
+$_['ms_config_attribute_display'] = '屬性顯示';
 $_['ms_config_attribute_display_note'] = 'Controls the way how attributes are displayed on the product page';
 $_['ms_config_attribute_display_mm'] = 'MultiMerch';
 $_['ms_config_attribute_display_oc'] = 'OpenCart';
-$_['ms_config_attribute_display_both'] = 'Both';
+$_['ms_config_attribute_display_both'] = '都顯示';
 
 $_['ms_config_privacy'] = 'Privacy';
-$_['ms_config_enable_private_messaging'] = 'Allow customers to contact sellers';
+$_['ms_config_enable_private_messaging'] = '允許顧客連絡賣家';
 $_['ms_config_enable_private_messaging_note'] = 'Enables or disables the seller contact dialog';
 
 $_['ms_config_hide_customer_email'] = 'Hide customer email address';
@@ -291,11 +291,11 @@ $_['ms_config_hide_email_in_email_note'] = 'Hides customer and seller email addr
 $_['ms_config_seller'] = 'Sellers';
 
 // Change Seller Nickname
-$_['ms_config_seller_change_nickname'] = 'Allow nickname change';
-$_['ms_config_seller_change_nickname_note'] = 'Allow sellers to change nickname/shop name';
+$_['ms_config_seller_change_nickname'] = '允許更換暱稱';
+$_['ms_config_seller_change_nickname_note'] = '允許賣家更換暱稱（店名)';
 
 // Seller Nickname Rules
-$_['ms_config_nickname_rules'] = 'Seller nickname rules';
+$_['ms_config_nickname_rules'] = '賣家暱稱規則';
 $_['ms_config_nickname_rules_note'] = 'Character sets allowed in seller nicknames';
 $_['ms_config_nickname_rules_alnum'] = 'Alphanumeric';
 $_['ms_config_nickname_rules_ext'] = 'Extended latin';
@@ -308,15 +308,15 @@ $_['ms_config_avatars_manually'] = 'Uploaded manually by seller';
 $_['ms_config_avatars_both'] = 'Both uploaded by seller and pre-defined';
 $_['ms_config_avatars_predefined'] = 'Only pre-defined';
 
-$_['ms_config_other'] = 'Other';
+$_['ms_config_other'] = '其他';
 $_['ms_config_hide_sellers_product_count'] = 'Hide count of sellers and products in the header';
 $_['ms_config_hide_sellers_product_count_note'] = 'Hides line, which contains count of sellers and products in the header';
 
 // Seller - List
-$_['ms_catalog_sellers_heading'] = 'Sellers';
-$_['ms_catalog_sellers_breadcrumbs'] = 'Sellers';
-$_['ms_catalog_sellers_newseller'] = 'New seller';
-$_['ms_catalog_sellers_create'] = 'Create new seller';
+$_['ms_catalog_sellers_heading'] = '賣家';
+$_['ms_catalog_sellers_breadcrumbs'] = '賣家';
+$_['ms_catalog_sellers_newseller'] = '新的賣家';
+$_['ms_catalog_sellers_create'] = '建立新的賣家';
 
 $_['ms_catalog_sellers_total_balance'] = 'Total amount on all balances: <b>%s</b> (active sellers: <b>%s</b>)';
 $_['ms_catalog_sellers_email'] = 'Email';
@@ -329,21 +329,21 @@ $_['ms_catalog_sellers_date_created'] = 'Date created';
 $_['ms_catalog_sellers_balance_paypal'] = 'Balance payout via PayPal';
 
 $_['ms_seller_change'] = 'Change seller';
-$_['ms_seller_status_' . MsSeller::STATUS_ACTIVE] = 'Active';
+$_['ms_seller_status_' . MsSeller::STATUS_ACTIVE] = '啟動中';
 $_['ms_seller_status_' . MsSeller::STATUS_INACTIVE] = 'Inactive';
-$_['ms_seller_status_' . MsSeller::STATUS_DISABLED] = 'Disabled';
+$_['ms_seller_status_' . MsSeller::STATUS_DISABLED] = '禁用';
 $_['ms_seller_status_' . MsSeller::STATUS_INCOMPLETE] = 'Incomplete';
 $_['ms_seller_status_' . MsSeller::STATUS_DELETED] = 'Deleted';
 $_['ms_seller_status_' . MsSeller::STATUS_UNPAID] = 'Unpaid signup fee';
 
 // Customer-seller form
-$_['ms_catalog_sellerinfo_heading'] = 'Seller';
-$_['ms_catalog_sellerinfo_seller_data'] = 'Seller data';
+$_['ms_catalog_sellerinfo_heading'] = '賣家';
+$_['ms_catalog_sellerinfo_seller_data'] = '賣家資料';
 
-$_['ms_catalog_sellerinfo_customer'] = 'Customer';
-$_['ms_catalog_sellerinfo_customer_data'] = 'Customer data';
-$_['ms_catalog_sellerinfo_customer_new'] = 'New customer';
-$_['ms_catalog_sellerinfo_customer_existing'] = 'Existing customer';
+$_['ms_catalog_sellerinfo_customer'] = '客戶';
+$_['ms_catalog_sellerinfo_customer_data'] = '客戶資料';
+$_['ms_catalog_sellerinfo_customer_new'] = '新的客戶';
+$_['ms_catalog_sellerinfo_customer_existing'] = '已存在的客戶';
 $_['ms_catalog_sellerinfo_customer_create_new'] = 'Create new customer';
 $_['ms_catalog_sellerinfo_customer_firstname'] = 'First Name';
 $_['ms_catalog_sellerinfo_customer_lastname'] = 'Last Name';
